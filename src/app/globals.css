@@ -2,26 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+#about {
+  background-color: black;
+  padding: 4rem 0;
+  width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #94c2d2;
+}
+
+.profile-picture {
+  width: 16rem;
+  height: 16rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  border-radius: 0.5rem;
+  object-cover: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.resume-button {
+  position: relative;
+  padding: 1rem 1.5rem;
+  background-color: #6a0dad;
+  color: white;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #7a1fe1;
+}
+
+.resume-button .pulsing-shadow {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(106, 13, 173, 0.5);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.5);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  50% {
+    box-shadow: 0 0 20px rgba(106, 13, 173, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.5);
   }
 }
