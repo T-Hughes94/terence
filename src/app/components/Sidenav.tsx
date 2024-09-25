@@ -91,7 +91,7 @@ const Sidenav = () => {
         <div className="flex flex-col items-start">
           <Link href="#main" passHref>
             <div
-              className="rounded-full shadow-lg bg-purple-600 shadow-purple-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="rounded-full shadow-lg bg-purple-600 shadow-purple-700 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
               aria-label="Navigate to home section"
             >
               <AiOutlineHome size={24} />
@@ -127,7 +127,7 @@ const Sidenav = () => {
 
           <Link href="#projects" passHref>
             <div
-              className="rounded-full shadow-lg bg-purple-600 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="rounded-full shadow-lg bg-purple-600 shadow-red-700 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
               aria-label="Navigate to projects section"
             >
               <AiOutlineProject size={24} />
@@ -136,7 +136,7 @@ const Sidenav = () => {
 
           <Link href="#education" passHref>
             <div
-              className="rounded-full shadow-lg bg-purple-600 shadow-orange-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="rounded-full shadow-lg bg-purple-600 border-gray-100 shadow-orange-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
               aria-label="Navigate to education section"
             >
               <AiOutlineRead size={24} />

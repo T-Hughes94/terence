@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#about {
+/* #about {
   background-color: black;
   padding: 4rem 0;
   width: 100%;
@@ -66,4 +66,4 @@
   100% {
     box-shadow: 0 0 10px rgba(106, 13, 173, 0.5);
   }
-}
+} */

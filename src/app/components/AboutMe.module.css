@@ -1,0 +1,70 @@
+.aboutContainer {
+    background-color: black;
+    padding: 4rem 0;
+    width: 100%;
+  }
+  
+  .aboutTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #94c2d2;
+  }
+  
+  .profilePicture {
+    width: 16rem;
+    height: 16rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profileImage {
+    border-radius: 0.5rem;
+    object-cover: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .profileImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resumeButton {
+    position: relative;
+    padding: 1rem 1.5rem;
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+    z-index: 2; /* Ensure the button stays on top */
+  }
+  
+  .resumeButton:hover {
+    background-color: #7a1fe1;
+    color: gold;
+  }
+  
+  .pulsingShadow {
+    position: absolute;
+    inset: -3px; /* Make the shadow slightly larger than the button */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgb(246, 246, 243);
+    animation: pulse 1.3s infinite;
+    z-index: 1; /* Ensure the shadow stays behind the button */
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 10px rgb(243, 175, 4);
+    }
+    50% {
+      box-shadow: 0 0 20px rgb(243, 175, 4);
+    }
+    100% {
+      box-shadow: 0 0 10px rgb(243, 175, 4);
+    }
+  }
+  
+  
