@@ -26,7 +26,7 @@ const AboutMe = () => {
 
         {/* Additional Information */}
         <p className="text-gray-200 text-xl my-4">
-          I enjoy building applications that solve real-world problems and exploring new technologies. My experience as a chef in the hospitality industry has taught me valuable leadership skills and how to effectively communicate with team members. I also enjoy nature, spending time with family, and music.
+          I enjoy building applications that solve real-world problems and exploring new technologies. My experience as a Chef in the hospitality industry has taught me valuable leadership skills and how to effectively accomplish goals as a team. I also enjoy nature, spending time with family, and music.
         </p>
 
         {/* Download Resume Button with Pulsing Shadow */}
