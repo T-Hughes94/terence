@@ -1,0 +1,10 @@
+footer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
