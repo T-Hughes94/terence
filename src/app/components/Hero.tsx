@@ -38,13 +38,13 @@ const Hero: FC = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center space-x-16 pt-8">
-            <Link href="https://www.linkedin.com/" passHref>
+            <Link href="https://www.linkedin.com/in/terence-hughes-27204128a/" passHref>
               <FaLinkedinIn size={50} className="text-gray-800 hover:text-blue-600 cursor-pointer" />
             </Link>
-            <Link href="https://github.com/" passHref>
+            <Link href="https://github.com/T-Hughes94" passHref>
               <FaGithub size={50} className="text-gray-800 hover:text-purple-700 cursor-pointer" />
             </Link>
-            <Link href="mailto:your.email@example.com" passHref>
+            <Link href="mailto:terencehughes450@gmail.com" passHref>
               <AiOutlineMail size={50} className="text-gray-800 hover:text-red-500 cursor-pointer" />
             </Link>
           </div>
